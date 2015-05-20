@@ -58,8 +58,8 @@
 #define INP_HAS_CALIBRATION 4
 
 /* Compute voltage from y = 2.1592x + 0.2493 */
-#define VOLTAGE_NUMERATOR 216
-#define VOLTAGE_OFFSET    249
+#define VOLTAGE_NUMERATOR 324
+#define VOLTAGE_OFFSET    382
 
 #endif //_DEVO7E_TARGET_H_
 
