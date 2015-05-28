@@ -280,7 +280,7 @@ void LCD_Init()
 void LCD_Clear(unsigned int i)
 {
     // Set the character size to 1dot for all lines
-    for(i = 0; i < LCD_SCREEN_LINES; i++) {
+    for(i = 0; i <= LCD_SCREEN_LINES; i++) {
         LCD_Cmd(LCD_IA911_CHAR_SIZE | i);
         lcd_show_line("", i, LCD_ALIGN_LEFT, 0);
     }
